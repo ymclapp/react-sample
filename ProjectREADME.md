@@ -1,7 +1,7 @@
 ##  Dependencies:
 1.  React
+    -  React-Dom will load with it
 2.  React-Bootstrap
-3.  React-Router-Dom
 
 ##  Referenced:
 
@@ -18,6 +18,13 @@
 ###  4)  Create the components folder in src
 
 ###  5)  Create Home page
+
+###  6)  app.js:
+1.  import Home from './components/Home';
+2.  Add Switch and Route in the return area
+3.  Add <Route exact path={['/', '/home']}> and </Route> after the home route below
+3.  Add <Home /> as a route
+
 
 
 
