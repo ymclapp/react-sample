@@ -63,7 +63,7 @@ export default function Home() {
                 </CardGroup>
             </Container>
 
-            <Container as='div' className='home text-center'>
+            <Container as='div' className='home text-center mt-5'>
                 <CardGroup>
                     <Card className="card">
                         <Card.Header>
