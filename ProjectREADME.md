@@ -2,6 +2,7 @@
 1.  React
     -  React-Dom will load with it
 2.  React-Bootstrap
+3.  Bootstrap
 
 ##  Referenced:
 
@@ -14,6 +15,7 @@
 ###  3)  app.js:
 1.  import React from 'react';
 2.  import { Switch, Route } from 'react-router-dom';
+3.  import 'bootstrap/dist/css/bootstrap.min.css';
 
 ###  4)  Create the components folder in src
 
