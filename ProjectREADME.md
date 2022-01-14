@@ -29,6 +29,8 @@
 
 ###  7)  Created NavMenu and Footer and put in a partials folder within components
 
+###  8)  Added sticky to the navbar and also created an offcanvas navbar
+
 
 
 
