@@ -62,6 +62,53 @@ export default function Home() {
                     </Card>
                 </CardGroup>
             </Container>
+
+            <Container as='div' className='home text-center'>
+                <CardGroup>
+                    <Card className="card">
+                        <Card.Header>
+                            Title1
+                        </Card.Header>
+                        <Card.Img className='featured' variant='top' src={pic1} />
+                        <Card.Body>
+                            <Card.Text>
+                                Text<br />More text
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Button href='/'>Link</Button>
+                        </Card.Footer>
+                    </Card>
+                    <Card className="card">
+                        <Card.Header>
+                            Title2
+                        </Card.Header>
+                        <Card.Img className='featured' variant='top' src={pic2} />
+                        <Card.Body>
+                            <Card.Text>
+                                Text<br />More text
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Button href='/'>Link</Button>
+                        </Card.Footer>
+                    </Card>
+                    <Card className="card">
+                        <Card.Header>
+                            Text3
+                        </Card.Header>
+                        <Card.Img className='featured' variant='top' src={pic3} />
+                        <Card.Body>
+                            <Card.Text>
+                                Text<br />More text
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Button href='/'>Link</Button>
+                        </Card.Footer>
+                    </Card>
+                </CardGroup>
+            </Container>
         </>
     )
 }

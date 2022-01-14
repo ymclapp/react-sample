@@ -27,6 +27,8 @@
 3.  Add <Route exact path={['/', '/home']}> and </Route> after the home route below
 3.  Add <Home /> as a route
 
+###  7)  Created NavMenu and Footer and put in a partials folder within components
+
 
 
 

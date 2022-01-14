@@ -7,7 +7,7 @@ export default function NavMenu() {
 
   return (
     <>
-      <Navbar className='navbar'>
+      <Navbar className='navbar' sticky='top'>
         <Navbar.Brand href='/' className='navbar-brand'> React Template
           {' '}
         </Navbar.Brand>
