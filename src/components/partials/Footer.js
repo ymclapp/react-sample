@@ -1,5 +1,5 @@
 import { Navbar } from 'react-bootstrap';
-import '../partials/Footer';
+import '../partials/Footer.css';
 
 import logoFake from '../stockPhotos/logoFake.jpg';
 
